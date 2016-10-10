@@ -1,0 +1,153 @@
+h1, nav h2,
+#one h2,
+.about-me h2{
+    display: none;
+}
+
+nav.top-bar, nav.top-bar ul{
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #2199e8;
+}
+
+nav.top-bar .top-bar-left > ul > li > a,
+nav.top-bar .top-bar-right > ul > li > a,
+#example-menu > div.top-bar-left > ul > li{
+    color: #fff;
+}
+
+#one{
+    margin: 60px 0;
+}
+
+.article-prv{
+    padding: 32px 0;
+}
+
+.article-prv h6{
+    font-family: 'Passion One', cursive;
+    font-size: 44px;
+}
+
+.article-prv .fa {
+    padding: 0 8px;
+    font-size: 24px;
+}
+
+/*.about-me{
+    margin-top: 40px;
+}*/
+
+.about-me > .about p:first-child,
+.about-me > .me p:first-child{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 120px;
+    padding: 20px 0;
+}
+
+.about-me .about > p:last-child,
+.about-me .me > p:last-child{
+    font-family: 'Hind', sans-serif;
+}
+
+.about-me img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+.about-me .items-wrapper{
+    margin-top: 50%;
+}
+
+.about-me .items-wrapper .fa{
+    font-size: 90px;
+    padding: 25px 0;
+}
+
+.contact-me input{
+    height: 3.4em;
+    font-size: 1.1rem;
+}
+
+.contact-me input:focus{
+    border-color: #000;
+}
+
+.contact-me > h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 120px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-me > p{
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    color: #cacaca;
+}
+
+#send-btn .fa{
+    font-size: 28px;
+    padding-right: 6px;
+}
+
+.article h2{
+    font-family: 'Passion One', cursive;
+    font-size: 64px;
+}
+
+.article .fa {
+    padding: 0 8px;
+    font-size: 24px;
+}
+
+.article{
+    margin-top: 60px;
+    /*text-align: center;*/
+}
+
+.article .article-text p{
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+}
+
+footer{
+    margin-top: 102px;
+    background-color: #fff;
+}
+
+footer .callout.secondary {
+    background-color: #2199e8;
+    color: #fff;
+}
+
+footer h6{
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 28px;
+}
+
+footer .copyright p{
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+}
+
+footer .social-media .single-link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer .social-media .single-link .fa{
+    font-size: 60px;
+    color: #fff;
+}
+
+@media(max-width: 638px){
+    .article h2{
+        font-size: 42px;
+    }
+
+    div.title-bar{
+        background-color: #2199e8;
+    }
+}
